@@ -1,4 +1,4 @@
-This is the answer of for hiding the javascript file for the front end
+This is the answer for hiding the javascript file for the front end
 
 I have consider a sample project of mine which is simple as an example.
 tryed to do the Ofuscate method to hide the code
