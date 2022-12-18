@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fund me Free Code Camp</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <h1>A sample fund me contract html-javascript</h1>
+        <button class="connect-button" id="connectButton">
+            Connect
+        </button>
+        <script type="module" src="./IndexProtected.js">
+        </script>
+        <fieldset>
+            <div class="label">
+                <button id="fundButton">
+                    Fund
+                </button>
+                <label for="fund">Eth amount: </label>
+                <input id="ethAmount" placeholder="0.1"/>
+            </div>
+            <div class="label">
+                <button id="withdrawButton">Withdraw</button>
+            </div>
+            <div class="label">
+                <button id="getBalanceButton">Get balance</button>
+                <label id="balanceLabel" for="fund">Balance is: Unknwon</label>
+            </div>
+        </fieldset>
+    </body>
+</html>
